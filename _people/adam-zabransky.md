@@ -9,8 +9,6 @@ category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
 - kontaktni_osoba
 contactType: Média
 img: people/adam-zabransky.jpg   # 165 x 220
-redmine: 16
-calendar: 1codkq4c1g98n0o1f5tv3f3rf0@group.calendar.google.com
 description: Pražský radní pro bydlení a transparentnost             	# kratký popis, max 160 znaků
 mail:
 - adam.zabransky@pirati.cz
@@ -27,10 +25,12 @@ carousel:
   img: adam-zabransky.jpg
   text: |
     <p><strong>Předseda</strong> zastupitelského klubu Pirátů, člen předsednictva krajského sdružení Pirátů v Praze. </p>
+redmine: 16
+calendar: 1codkq4c1g98n0o1f5tv3f3rf0@group.calendar.google.com
 ---
 
-Adam Zábranský (* 28. prosince 1993, Praha) je pražský zastupitel za Piráty a 1. místopředseda krajského sdružení Pirátů v Praze. Pochází z Prahy, odjakživa žije na jejím okraji v Radotíně. Momentálně studuje na Právnické fakultě Univerzity Karlovy, předtím čtyři roky studoval na Gymnáziu Jana Keplera a ještě předtím na Mensa gymnáziu. Už od čtrnácti let (s kratšími či delšími pauzami, v menší či větší intenzitě) přispívá na českou Wikipedii. Zajímá se o tolik věcí, že by se to sem všechno nevešlo. Z etických důvodů se v osmnácti letech stal vegetariánem a v devatenácti veganem.
+Adam Zábranský (* 28. prosince 1993, Praha) je pirátský radní hl. m. Prahy pro bydlení a transparentnost. Od roku 2014 je členem zastupitelstva hl. m. Prahy, od roku 2017 předsedou zastupitelského klubu Pirátů. Po komunálních volbách v roce 2018 se stal radním pro oblast transparentnosti a bydlení (se zaměřením na správu městského bytového fondu). Zároveň je 1. místopředsedou krajského sdružení Pirátů v Praze. V Praze žije od narození. Momentálně dokončuje studium na Právnické fakultě Univerzity Karlovy, předtím čtyři roky studoval na Gymnáziu Jana Keplera a ještě předtím na Mensa gymnáziu. Od čtrnácti let [přispíval](https://cs.wikipedia.org/wiki/Wikipedista:Adam_Z%C3%A1bransk%C3%BD) na českou Wikipedii. Z etických důvodů se v osmnácti letech stal vegetariánem a v devatenácti veganem. Členem Pirátů je od roku 2014.
 
-O českou politiku se dlouho téměř nezajímal, protože měl pocit, že se nedá změnit. V čerstvých osmnácti letech ale objevil Pirátskou stranu, uvědomil si, že je odjakživa pirátem, a s nadějí vstoupil na palubu.
+V pražském zastupitelstvu v letech 2014-2018 působil ve výborech pro územní plánování, sport a volný čas, legislativu a protikorupční opatření či v kontrolním výboru. Vyhrál precedentní spor o přístup k informacím u Ústavního soudu proti Pražské plynárenské, rozkryl klientelistickou síť podnikatelů z ČSSD v městských firmách, upozorňoval na přemrštěné odměny trafikantů v městských společnostech a nevýhodné nájemní smlouvy města.
 
-Od roku 2017 má jako pražský zastupitel v gesci oblasti územního plánování, sportu a volného času, legislativu a protikorupční opatření. Je členem kontrolního výboru ZHMP.
+Ve svém volném čase hraje volejbal či badminton, posiluje, čte si populárně-naučnou literaturu, poslouchá podcasty a sebevzdělává se.
