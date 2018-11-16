@@ -22,6 +22,8 @@ profiles:
 ordpraha: 5	
 ordga: 7
 ordpks: 3
+redmine: 164
+calendar: erijtgm3jaa14hnr4d5urm37t4@group.calendar.google.com
 ---
 
 Vít Šimral (9. července 1986, Roudnice nad Labem) je garant programového bodu právo a sociální věci. Je 3. místopředsedou krajského sdružení Pirátů v Praze.
