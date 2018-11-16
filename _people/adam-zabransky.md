@@ -1,15 +1,16 @@
 ---
+data-version: 2
 uid: adam.zabransky
 name:     Adam Zábranský  	# běžně používáné jméno
-category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
+category:                 	# kategorie: praha
 - praha
 - mhmp
 - carousel
 - pks
 - kontaktni_osoba
-contactType: Média
 img: people/adam-zabransky.jpg   # 165 x 220
 description: Pražský radní pro bydlení a transparentnost             	# kratký popis, max 160 znaků
+direct-contact: true
 mail:
 - adam.zabransky@pirati.cz
 mob:			  +420 721 006 868
