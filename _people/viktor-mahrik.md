@@ -23,6 +23,8 @@ carousel:
   img: viktor-mahrik.jpg
   text: |
     <p><strong>Zastupitel<strong/> za Piráty se specializací na oblast dopravy, člen předsednictva krajského sdružení Pirátů v Praze. </p>
+redmine: 5
+calendar: 2l6sfsk9eeb3qfkuhtfuu44od4%40group.calendar.google.com
 ---
 
 Viktor Mahrik (* 21. dubna 1982) je členem předsednictva krajského sdružení Praha a předseda místního sdružení Praha 6.
