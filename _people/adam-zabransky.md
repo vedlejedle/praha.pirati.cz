@@ -9,9 +9,9 @@ category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
 - kontaktni_osoba
 contactType: Média
 img: people/adam-zabransky.jpg   # 165 x 220
-redmine: 17
-calendar: mikulas.ferjencik%40gmail.com&ctz=Europe%2FPrague
-description: Předseda zastupitelského klubu Pirátů v zastupitelstvu hl. m. Prahy, 1. místopředseda krajského sdružení Pirátů v Praze             	# kratký popis, max 160 znaků
+redmine: 16
+calendar: 1codkq4c1g98n0o1f5tv3f3rf0@group.calendar.google.com
+description: Pražský radní pro bydlení a transparentnost             	# kratký popis, max 160 znaků
 mail:
 - adam.zabransky@pirati.cz
 mob:			  +420 721 006 868
