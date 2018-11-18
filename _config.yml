@@ -51,6 +51,10 @@ github:
   url: https://github.com/pirati-web/praha.pirati.cz/
   branch: master
 
+
+youtube:
+  url: "https://www.youtube.com/channel/UC6zpUdw-MTT1WUBDo4K-nHA/videos" 
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
