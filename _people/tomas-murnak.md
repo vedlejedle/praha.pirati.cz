@@ -17,6 +17,8 @@ profiles:
   twitter: 		  
   flickr:     		  https://www.flickr.com/search/?text=Tom%C3%A1%C5%A1%20Mur%C5%88%C3%A1k
 ordpraha: 8
+redmine: 55
+calendar: 3s2jcp27mm9mi89qppplj4qjqc@group.calendar.google.com
 ---
 
 <div style="color: #000000; text-transform: none; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; -webkit-text-stroke-text-decoration-style: initial;" class="level1">
