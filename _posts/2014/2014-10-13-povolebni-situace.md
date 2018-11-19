@@ -4,6 +4,7 @@ layout:	post
 author:	Jakub Michálek
 category:	blog
 image:	zastupitelstvo.jpg
+tags:	zhmp
 date:	2014-10-13
 ---
 
