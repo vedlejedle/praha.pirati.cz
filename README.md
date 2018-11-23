@@ -4,7 +4,7 @@
 
 
 praha.pirati.cz je nejstarší pirátský web běžící na jekyllu.
-Před nedávnem byl portován na thema 6, je buildován stejně jako nové weby, nicméně většina souborů, je přepsána starými.
+Před nedávnem byl portován na thema 6, je buildován stejně jako nové weby.
 
 Postup pro lokální stpuštení je stejný jako [v thematu](https://github.com/pirati-web/jekyll-theme-pirati/blob/master/USAGE.md)
 
