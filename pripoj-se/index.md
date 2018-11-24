@@ -2,12 +2,17 @@
 layout: page
 img: miscellaneous/volebni-rozcestnik.png
 article-boxes:
-  - title: "Rozdávání Pirátských listů"
+  - title: "Přidejte se k Pirátům"
     image: /assets/img/pripoj-se/noviny.jpg
-    button:  Hledáme rozdavače a rozvoz autem!
-    url: piratske-listy-offline.html
-    description:  >
-              Šíříme informace o skutečném fungování státu a města. Díky vám se dostanou i k lidem, kteří se s Internetem nekamarádí.
+    button:  Naloďte se k pirátům!
+    url: https://nalodeni.pirati.cz
+    description: Ceníte si svobody a demokracie? Chcete se zapojit do dění na české politické scéně? Připojte se k nám! Členům, příznivcům i podporovatelům nabízí "nalodění" snadný vstup. 
+#  - title: "Rozdávání Pirátských listů"
+#    image: /assets/img/pripoj-se/noviny.jpg
+#    button:  Hledáme rozdavače a rozvoz autem!
+#    url: piratske-listy-offline.html
+#    description:  >
+#              Šíříme informace o skutečném fungování státu a města. Díky vám se dostanou i k lidem, kteří se s Internetem nekamarádí.
   - title: Zastupitelé na Magistrátu
     image: /assets/img/pripoj-se/zastupko.jpg
     button: Hledáme odborníky a stážisty!
@@ -44,6 +49,7 @@ Schůze probíhají pravidelně každý první čtvrtek v měsíci.
 * Na první kontakt doporučujeme přijít na **krajskou schůzi** nebo na **Pirátské úterý**, viz [kalendář](kalendar/#praha).
 
 
+{% comment %}
 ## Dotazník
 <div>
 	<a href="https://docs.google.com/forms/d/17MEmWfP4hyHO8On9V_PUTuWNDtS89bdhfomnyMfHoqY/viewform?edit_requested=true">
@@ -53,6 +59,7 @@ Schůze probíhají pravidelně každý první čtvrtek v měsíci.
 	Vyplň Pirotazník ještě dnes!i
 	</a>
 </div>
+{% endcomment %}
 
 ## Kalendář akcí
 
