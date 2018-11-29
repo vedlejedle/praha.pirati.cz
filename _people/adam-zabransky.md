@@ -4,7 +4,7 @@ uid: adam.zabransky
 name:     Adam Zábranský  	# běžně používáné jméno
 category:                 	# kategorie: praha
 - praha
-- mhmp
+- mhmp-radni
 - carousel
 - pks
 img: people/adam-zabransky.jpg   # 165 x 220

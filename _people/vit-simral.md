@@ -3,14 +3,14 @@ uid: vit.simral
 name:     Vít Šimral  	# běžně používáné jméno
 titles:
   before: PhDr. Mgr.
-  after: LL.B (Hons)
-category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
-- mhmp
+  after: Ph.D. et Ph.D.
+category:
 - praha
+- mhmp-radni
 - ga
 - pks
 img: people/vit-simral.jpg    # 165 x 220
-description: zastupitel hl. m. Prahy, místopředseda zast. klubu Pirátů v Praze a 3. místopředseda sdružení Pirátů v Praze             	# kratký popis, max 160 znaků
+description: radní pro oblast školství, sportu, vědy a podpory podnikání
 mail:
 - vit.simral@pirati.cz
 mob:			  

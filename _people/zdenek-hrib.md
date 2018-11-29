@@ -5,10 +5,10 @@ titles:
   before: MUDr. 
   after:
 category:                 
-- mhmp
+- mhmp-radni
 - praha
 img: people/zdenek-hrib.jpg  # 165 x 220
-description: Lídr kandidátky do zastupitelstva hl. m. Prahy, zastupitel, kandidát na primátora
+description: <br/> primátor
 mail:
 - zdenek.hrib@pirati.cz
 mob: +420 602 560 028
