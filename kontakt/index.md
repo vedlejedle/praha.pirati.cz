@@ -20,6 +20,27 @@ residences:
    residenceImg: kontakt/magistrat.jpg
    mapLink: "https://mapy.cz/zakladni?x=14.4151543&y=50.0733415&z=18&source=addr&id=9018965&q=Na%20Mor%C3%A1ni%203"
 contentSize: even # zařídí že sloupce maji stejnou šířku a nikoliv 3:2 jak je default 
+# Nastavení zobrazení tabulky kontaktů.
+# Lze využít:
+# 1) předdefinované typy (organizationEmail, organizationRedmineLink, organizationPhone, organizationTransparentAccount, organizationDataBox, piratiRootWebsite)
+# 2) vlastní řádky - zde je nutné jako type dát `custom` a vyplnit `label` a `body`
+contactSummaryItems:
+  - type: organizationEmail
+  - type: custom
+    iconClass: fa fa-facebook
+    label: Facebook
+    body: <a href="https://www.facebook.com/CeskaPiratskaStranaPraha/">CeskaPiratskaStranaPraha</a>
+  - type: custom
+    iconClass: fa fa-twitter
+    label: Twitter
+    body: <a href="https://twitter.com/piratipraha">@piratipraha</a>
+  - type: organizationRedmineLink
+  - type: organizationPhone
+  - type: organizationTransparentAccount
+    includeMoreLink: true
+  - type: organizationDataBox
+  - type: piratiRootWebsite
+# kontaktní osoby se nastavují v hlavičká _people
 ---
 
 <div class="o-section-header o-section-header--indented">
