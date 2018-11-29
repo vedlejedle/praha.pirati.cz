@@ -16,7 +16,6 @@ organization:
   address: |
     Na Moráni 3,
     120 00 Praha 2
-  residenceImg: novepice.jpg
   mapLink: https://mapy.cz/zakladni?x=14.4151543&y=50.0733415&z=18&source=addr&id=9018965&q=Na%20Mor%C3%A1ni%203
   redmineLink: https://redmine.pirati.cz/projects
   dataBoxId: b2i4r6j
@@ -55,6 +54,31 @@ github:
 youtube:
   url: "https://www.youtube.com/channel/UC6zpUdw-MTT1WUBDo4K-nHA/videos" 
 
+# Nastavení zobrazení tabulky kontaktů.
+# Lze využít:
+# 1) předdefinované typy (organizationEmail, organizationRedmineLink, organizationPhone, organizationTransparentAccount, organizationDataBox, piratiRootWebsite)
+# 2) vlastní řádky - zde je nutné jako type dát `custom` a vyplnit `label` a `body`
+contactSummaryItems:
+  - type: organizationEmail
+  - type: custom
+    iconClass: fa fa-facebook
+    label: Facebook
+    body: <a href="https://www.facebook.com/CeskaPiratskaStranaPraha/">CeskaPiratskaStranaPraha</a>
+  - type: custom
+    iconClass: fa fa-twitter
+    label: Twitter
+    body: <a href="https://twitter.com/piratipraha">@piratipraha</a>
+  - type: organizationRedmineLink
+  - type: organizationPhone
+  - type: organizationTransparentAccount
+    includeMoreLink: true
+  - type: organizationDataBox
+  - type: piratiRootWebsite
+
+    
+
+##  TECHNICKÁ ČÁST  
+    
 plugins:
   - jekyll-paginate
   - jekyll-sitemap

@@ -1,17 +1,16 @@
 ---
-layout: default
+layout: regions
+title: Městcké části
 ---
-<!DOCTYPE html>
-<html lang="cs" dir="ltr" itemtype="http://schema.org/WebPage" itemscope="">
-    <body>
-
-      <section id='regions-map'>
+<!--
+	rozklikavaci mapa od Matěje Soukupa, aktuálně nefunkční
+    <section id='regions-map'>
     <div class="row" style="background-color: lightgray;">
 
         <div class="large-12 columns" style="margin-bottom: 20px;">
               <div id="regions-map-paper" class="hide-for-medium-only hide-for-small-only text-center"></div>
         </div>
-        <!--<div class="large-5 columns" style="margin-top: 40px;">
+        <div class="large-5 columns" style="margin-top: 40px;">
             <article class="c-BlogPosting" style="background-color: white; margin-top: 40px; margin-right: 20px">
                 <div class="row c-BlogPosting-content">
                     <h3 style="margin-left: 45px">Místní sdružení</h3>
@@ -25,175 +24,8 @@ layout: default
                     </div>
                 </div>
             </article>
-        </div>>-->
+        </div>>
 
     </div>
     </section>
-    <br />
-    <div class="row" style="display: flex;justify-content: center;flex-wrap: wrap;">
-      {% assign regions = site.data.regions | sort: 'rank' %}
-      {% for region in regions %}
-      {% if region.kontakt_id %}
-        {% assign kontakt = site.people | where: "uid", region.kontakt_id | first %}
-        {% assign cislo = region.full_name | split: 'Praha ' %}
-        {% assign content = kontakt.content | strip_newlines %}
-        {% assign candidates = site.candidatelists | where: "uid", region.uid | first  %}
-        <div style="width:227px;height:420px;align-self:flex-start;text-align:center">
-        <h3 id={{ region.uid}}>MČ {{ region.full_name}}</h3>
-          <img src=/assets/img/{{kontakt.img}} alt=kontakt.full_name style="height:220px"><br />
-            <p><b>{% if content == ""  %}{{kontakt.name}}{% else %}<a href='{{kontakt.url}}'>{{kontakt.name}}</a>{% endif %}</b><br />
-            Lídr Pirátů na Praze {{cislo[1]}}<br />
-            <a href="mailto:{{kontakt.mail}}">{{kontakt.mail}}</a></p>
-            <p>
-              {% if candidates %}<i class="fa fa-users"></i><a href="{{candidates.url}}">Kandidátka {{region.full_name}}</a><br />{% endif %}
-            {% if region.link %}<i class="fa fa-globe"></i><a href={{region.link}}>Web Piráti {{region.full_name}}</a><br />{% endif %}
-            {% if region.facebook %}<i class="fa fa-facebook-square"></i><a href={{region.facebook}}>FB Piráti {{region.full_name}}</a><br />{% endif %}
-            <i class="fa fa-address-book"></i><a href=praha{{cislo}}.html>Kandidátní listina</a><br />
-
-	    </p>
-    </div>
-    {% endif %}
-    {% endfor %}
-    </div>
-
-
-
-
-<!--
-<div class="row">
-  <img src="{{"/assets/img/mestske-casti/praha-rozdeleni2.jpg" }}">
-</div>
--->
-
-<hr>
-
-<div class="row">
-  <div class="columns large-6">
-    <h2>Krajské sdružení</h2>
-    <p>Krajské sdružení Praha (KS) se dělí na několik místních sdružení (MS).</p>
-    <p>Krajským předsedou je <a href="{{ '/lide/ondrej-profant/'  }}">Ondřej Profant</a>, dále jsou v krajském předsednictvu čtyři místopředsedové: <a href="{{ '/lide/adam-zabransky/'  }}">Adam Zábranský</a>, <a href="{{ '/lide/vit-simral/'  }}">Vít Šimral</a>, <a href="{{ '/lide/daniel-mazur/'  }}">Daniel Mazur</a> a <a href="{{ '/lide/jaromir-beranek/'  }}">Jaromír Beránek</a>.</p>
-  </div>
-</div>
-
-<!--
-<div class="row">
-  <div class="columns large-6">
-    <h2 id="p01">Praha 1</h2>
-    <p><a href="{{ '/lide/pavel-nazarsky/'  }}">Pavel Nazarský</a>, člen Pirátů</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p01' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-  <div class="columns large-6">
-    <h2 id="p2">Praha 2</h2>
-    <p><a href="{{ '/lide/robert-rames/'  }}">Robert Rameš</a>, člen Pirátů</p>
-    <p>V obvodě je za nás zvolen senátor <a href="http://libormichalek.cz/">Libor Michálek</a></p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p2' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-</div>
-
-<div class="row">
-  <div class="columns large-6">
-    <h2 id="p3">Praha 3</h2>
-    <p><a href="{{ '/lide/pavel-kralicek/'  }}">Pavel Králíček</a>, člen Pirátů</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p3' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-  <div class="columns large-6">
-    <h2 id="p4"><a href="https://praha4.pirati.cz/">Praha 4</a></h2>
-    <p><a href="{{ '/lide/marek-paris/'  }}">Marek Paris</a>, člen Pirátů</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p4' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-</div>
-
-<div class="row">
-  <div class="columns large-6">
-    <h2 id="p5"><a href="https://praha5.pirati.cz/">Praha 5</a></h2>
-    <p><a href="{{ '/lide/daniel-mazur/'  }}">Daniel Mazur</a>, člen Pirátů</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p5' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-  <div class="columns large-6">
-    <h2 id="p6"><a href="https://praha6.pirati.cz/">Praha 6</a></h2>
-    <p><a href="{{ '/lide/viktor-mahrik/'  }}">Viktor Mahrik</a>, člen Pirátů, zastupitel v ZHMP</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p6' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-</div>
-
-<div class="row">
-  <div class="columns large-6">
-    <h2 id="p7"><a href="https://praha7.pirati.cz/">Praha 7</a></h2>
-    <p><a href="{{ '/lide/roman-kucera/'  }}">Roman Kučera</a>, člen Pirátů</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p7' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-  <div class="columns large-6">
-    <h2 id="p8">Praha 8</h2>
-    <p><a href="{{ '/lide/michal-novak/'  }}">Michal Novák</a>, člen Pirátů</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p8' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-</div>
-
-<div class="row">
-  <div class="columns large-6">
-    <h2 id="p9">Praha 9</h2>
-    <p><a href="{{ '/lide/aneta-heidlova/'  }}">Aneta Heidlová</a>, členka Pirátů</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p9' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-  <div class="columns large-6">
-    <h2 id="p10"><a href="http://www.pirati10.cz/">Praha 10</a></h2>
-    <p><a href="{{ '/lide/pavel-hajek/'  }}">Pavel Hájek</a>, člen Pirátů</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p10' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-</div>
-
-<div class="row">
-  <div class="columns large-6">
-    <h2 id="p11">Praha 11</h2>
-    <p><a href="{{ '/lide/filip-miler/'  }}">Filip Miler</a>, člen Pirátů</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p11' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-  <div class="columns large-6">
-    <h2 id="p12"><a href="https://praha12.pirati.cz/">Praha 12</a></h2>
-    <p><a href="{{ '/lide/lukas-findeis/'  }}">Lukáš Findeis</a>, zastupitel na městské části Praha 12</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p12' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-</div>
-
-<div class="row">
-  <div class="columns large-6">
-    <h2 id="p13"><a href="https://praha.pirati.cz/mestske-casti/p13/">Praha 13</a></h2>
-    <p><a href="{{ '/lide/tomas-murnak/'  }}">Tomáš Murňák</a>, zastupitel na městské části Praha 13</p>
-    <p>V obvodě je s naší spoluúčastí zvolen senátor <a href="http://www.vaclavlaska.cz/">Václav Láska</a>.</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p13' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-  <div class="columns large-6">
-    <h2 id="p16">Praha 16</h2>
-    <p><a href="{{ '/lide/karel-nejedlik/'  }}">Karel Nejedlík</a>, člen Pirátů</p>
-    <ul>{% for post in site.posts %}{% if post.tags contains 'p16' %}
-            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}</ul>
-  </div>
-</div>
--->
+    -->

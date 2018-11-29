@@ -7,6 +7,8 @@ titles:
 category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
 - mhmp
 - praha
+- kontaktni_osoba
+contactType: Kontakt pro média
 img: people/pavel-hajek.jpg   # 165 x 220
 description: zastupitel hl. m. Prahy, zastupitel městské části Praha 10 za Piráty    	# kratký popis, max 160 znaků
 mail:

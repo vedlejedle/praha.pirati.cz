@@ -7,9 +7,8 @@ category:                 	# kategorie: praha
 - mhmp
 - carousel
 - pks
-- kontaktni_osoba
 img: people/adam-zabransky.jpg   # 165 x 220
-description: Pražský radní pro bydlení a transparentnost             	# kratký popis, max 160 znaků
+description: radní pro bydlení a transparentnost, předseda klubu zastupitelů             	# kratký popis, max 160 znaků
 direct-contact: true
 mail:
 - adam.zabransky@pirati.cz

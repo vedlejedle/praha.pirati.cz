@@ -9,7 +9,7 @@ category:
 - kodo
 - kontaktni_osoba
 ordkodo: 2
-contactType: Dobrovolníci
+contactType: Kontakt pro dobrovolníky
 img: people/michal-jokes.jpg   # 165 x 220
 description:  Koordinátor dobrovolníků, správce PiCe a kontaktů    	# kratký popis, max 160 znaků
 mail:
