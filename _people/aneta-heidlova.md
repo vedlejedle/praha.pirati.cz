@@ -14,7 +14,7 @@ mail:
 mob: +420 723 857 246		 
 profiles:
   github:       
-  facebook: https://www.facebook.com/Estrella888?__tn__=%2CdlC-R-R&eid=ARAZJwDt163yBKjyvSg_x1k-rNNyMZLfPgbz_z2MppneQ43WMO3DHgjESS-7XpUzbiEbQB5SlZWgh1dZ&hc_ref=ARTAYONWR3-hKcRibhxPZBDAJPtks5GVhVg3VVB-AyQxIimwIKLtsdB9tMA3GpI8DJk 
+  facebook: https://www.facebook.com/Estrella888 
   twitter: 		  
   flickr:		  
 ---
