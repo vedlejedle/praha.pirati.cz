@@ -2,13 +2,15 @@
 uid: alice.hamalova
 name: Alice Hamalová	# běžně používáné jméno
 fullname: Alice Hamalová
-category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
-- praha
+category:
+ - praha
+ - kodo
 img: 		people/alice-hamalova.jpg    # 165 x 220
-description:            	        			# kratký popis, max 160 znaků
+description: Zastupitelka na Praze 8 a koordinátroka koordinátů dobrovolníků.
+ordkodo: 1
 mail:
 - alice.hamalova@pirati.cz
-mob:			  
+mob: +420 777 699 091 
 profiles:
   github:                 
   facebook: 		  https://www.facebook.com/alice.hamalova

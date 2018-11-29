@@ -4,13 +4,14 @@ name:    Michal Jokeš
 titles:
   before:
   after:
-category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
+category:      
 - praha
 - kodo
 - kontaktni_osoba
+ordkodo: 2
 contactType: Dobrovolníci
 img: people/michal-jokes.jpg   # 165 x 220
-description:  Koordinátor dobrovolníků    	# kratký popis, max 160 znaků
+description:  Koordinátor dobrovolníků, správce PiCe a kontaktů    	# kratký popis, max 160 znaků
 mail:
 - michal.jokes@pirati.cz
 mob:			  +420 770 113 642
